@@ -9,10 +9,10 @@ var colors = ["#fd6c3b", "#4edacf","#65a576","#f2d83d"];
 // });
 
 router.get('/', function(req, res, next) {
-  
+
   var color = colors[Math.floor(Math.random()*colors.length)];
 
-  res.render('index', {color: color});
+  res.render('index', {colors: color});
 });
 
 module.exports = router;
