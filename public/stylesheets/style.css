@@ -4,6 +4,11 @@ body {
   background-color: <%= color %>;
 }
 
+.contentWrapper {
+  margin: 0 auto;
+  width: 360px;
+}
+
 a {
   color: #00B7FF;
 }
